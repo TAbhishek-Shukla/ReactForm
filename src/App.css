@@ -1,0 +1,105 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&display=swap'); 
+*{margin: 0;
+padding: 0;}
+
+.container{
+display: flex;
+justify-content: center;
+}
+.head{
+  display: flex;
+    justify-content: center;
+    color:white;
+    font-family: 'Anek Devanagari', sans-serif;
+    background-color: dodgerblue;
+    height: 33px;
+    padding: 5px;
+}
+.head p{
+  margin: 5px;
+}
+
+.form-field{
+  display: flex;
+  
+  flex-direction: column;
+  margin-top: 2vh;
+  background-color: hsla(323, 90%, 51%, 0.966);
+  min-width: 77vw;
+  min-height: auto;
+  position: flex-start;
+  border-radius: 5px;
+  box-shadow: 2px 10px 16px 2px rgb(0 0 0 / 50%);
+  border: 1px solid white;
+
+}
+form{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+.username{
+  margin: 20px;
+}
+.username input{
+  height: 4vh;
+  margin-left:10px;
+  cursor: pointer;
+}
+
+.email{
+  margin: 20px;
+}
+.email input{
+  height: 4vh;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.phone{
+  margin: 20px;
+}
+.phone input{
+  height: 4vh;
+  margin-left: 31px;
+  cursor: pointer;
+}
+.password{
+  margin: 20px;
+}
+.password input{
+  height: 4vh;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.submit-btn{
+  width: 51px;
+    height: 23px;
+    padding: 2px 3px;
+    border: 2px solid white;
+    background-color: #2196f3;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 10px ;
+    cursor: pointer;
+}
+.showdata{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  color: white;
+  font-family: 'Anek Devanagari', sans-serif;
+  
+  
+}
+/* Media queirirs// */
+
+@media only screen and (max-width: 378px) {
+ .showdata{
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+}
